@@ -22,17 +22,17 @@ const Hero = () => {
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex justify-center gap-3 sm:gap-4 flex-wrap max-w-full overflow-hidden">
           <a
             href="#about"
-            className="flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-sm sm:text-base font-semibold hover:scale-105 transition-transform duration-300 shadow-lg"
+            className="flex-1 min-w-[150px] max-w-[250px] flex items-center justify-center px-4 py-3 bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full text-sm sm:text-base font-semibold hover:scale-105 transition-transform duration-300 shadow-lg"
           >
             Book a Free Demo Call
             <ArrowRight className="w-5 h-5 ml-2" />
           </a>
           <a
             href="#services"
-            className="flex items-center justify-center px-6 py-3 border border-gray-700 text-gray-300 rounded-full text-sm sm:text-base font-semibold hover:border-blue-500 hover:text-blue-400 transition-all duration-300"
+            className="flex-1 min-w-[150px] max-w-[250px] flex items-center justify-center px-4 py-3 border border-gray-700 text-gray-300 rounded-full text-sm sm:text-base font-semibold hover:border-blue-500 hover:text-blue-400 transition-all duration-300"
           >
             View Services
           </a>

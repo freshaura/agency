@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Zap,
   Target,
@@ -80,12 +81,12 @@ const WhyChooseUs = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <a
-            href="/strategy-call"
+          <Link
+            to="/strategy-call"
             className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white text-lg font-semibold px-8 py-4 rounded-full shadow-lg hover:opacity-90 transition duration-300"
           >
             Book Your Free Strategy Call
-          </a>
+          </Link>
         </div>
       </div>
     </section>

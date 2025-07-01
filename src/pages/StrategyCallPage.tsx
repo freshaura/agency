@@ -146,7 +146,7 @@ const StrategyCallPage = () => {
             </p>
           </div>
 
-          {/* Calendly Embed Placeholder */}
+          {/* Calendly Embed */}
           <div className="bg-gray-800 rounded-3xl shadow-xl overflow-hidden border border-gray-700">
             <div className="bg-gradient-to-r from-blue-500 to-blue-600 p-6 text-center">
               <h3 className="text-2xl font-bold text-white mb-2">
@@ -156,35 +156,15 @@ const StrategyCallPage = () => {
                 Select your preferred time slot below
               </p>
             </div>
-            
-            {/* Calendly Widget Placeholder */}
-            <div className="p-8 text-center">
-              <div className="bg-gray-700 rounded-2xl p-12 border-2 border-dashed border-gray-600">
-                <Calendar className="w-16 h-16 text-blue-400 mx-auto mb-6" />
-                <h4 className="text-xl font-semibold text-white mb-4">
-                  Calendly Integration
-                </h4>
-                <p className="text-gray-400 mb-6">
-                  Replace this section with your actual Calendly embed code.
-                </p>
-                <div className="bg-gray-800 rounded-xl p-6 border border-gray-600">
-                  <p className="text-sm text-gray-400 mb-4">
-                    To integrate Calendly:
-                  </p>
-                  <ol className="text-sm text-gray-400 text-left space-y-2">
-                    <li>1. Create your Calendly booking page</li>
-                    <li>2. Get the embed code from Calendly</li>
-                    <li>3. Replace this placeholder with the embed code</li>
-                  </ol>
-                </div>
-                <a
-                  href="mailto:contact@nationimmersivo.com"
-                  className="inline-flex items-center bg-gradient-to-r from-blue-500 to-blue-600 text-white px-6 py-3 rounded-full font-semibold mt-6 hover:shadow-lg transition-all duration-300 group"
-                >
-                  Contact Us Directly
-                  <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
-                </a>
-              </div>
+
+            <div className="p-8">
+              <iframe
+                src="https://calendly.com/freshauramedia0/30min?embed_domain=yourdomain.com&embed_type=Inline"
+                title="Calendly Scheduling"
+                className="w-full h-[700px] rounded-2xl border-0"
+                frameBorder="0"
+                scrolling="no"
+              ></iframe>
             </div>
           </div>
 

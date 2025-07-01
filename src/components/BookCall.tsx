@@ -62,7 +62,7 @@ const BookCall = () => {
                   </div>
                 </div>
               );
-            })}
+            })} 
           </div>
 
           {/* CTA */}

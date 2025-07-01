@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Mail, Target, Calculator, ArrowRight } from 'lucide-react';
 
 const Services = () => {
@@ -91,13 +92,13 @@ const Services = () => {
                     ))}
                   </ul>
 
-                  <a
-                    href="/strategy-call"
+                  <Link
+                    to="/strategy-call"
                     className="flex items-center text-blue-400 font-semibold group-hover:text-blue-300 transition-colors duration-300"
                   >
                     Learn More
                     <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             );
@@ -106,12 +107,12 @@ const Services = () => {
 
         {/* Book a Call Button */}
         <div className="text-center mt-12">
-          <a
-            href="/strategy-call"
+          <Link
+            to="/strategy-call"
             className="inline-block bg-gradient-to-r from-blue-500 to-blue-600 text-white text-lg font-semibold px-8 py-4 rounded-full hover:opacity-90 transition duration-300 shadow-lg"
           >
             Book a Call
-          </a>
+          </Link>
         </div>
       </div>
     </section>
